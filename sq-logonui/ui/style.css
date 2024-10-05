@@ -1,0 +1,60 @@
+body {
+/*  display: none; */
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/*background-image: url("https://i.gyazo.com/31fe87ad627da4210d00f4079179b094.jpg");*/
+
+-webkit-user-select: none; /* Safari */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none; /* Standard */
+
+overflow: hidden; /* Prevents scrollbars when dragging/resizing */
+}
+
+.Container {
+
+  width: auto;
+  height: auto;
+  margin: 10px;
+  position: absolute;
+  display: none;
+}
+.Subtitle {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 0px 0px 10px rgb(63, 124, 236);
+  font-size: 50px;
+}
+
+.Info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 0px 0px 10px rgb(63, 124, 236);
+}
+
+.start {
+  position: absolute;
+  right: 0%;
+}
+
+.TimeContainer {
+  display: none;
+   width: auto;
+   height: auto;
+   margin: 10px;
+   position: absolute;
+
+   left: -1000px;
+
+ }
+
+ .Time2 {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 0px 0px 10px rgb(237, 191, 100);
+  font-size: 70px;
+ }
